@@ -1,0 +1,58 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 300px;
+  background-color: hsl(0, 0%, 12%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.container img {
+  border-radius: 50%;
+  width: 80px;
+  margin-bottom: 0;
+}
+.container h3 {
+  color: hsl(0, 0%, 100%);
+  margin: 15px 0 5px;
+  font-weight: 400;
+  font-size: 25px;
+}
+.container span {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  font-weight: 700;
+}
+.container p {
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+}
+.container .links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container .links li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  margin: 20px 0;
+  padding: 12px 0;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+.container .links li a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
